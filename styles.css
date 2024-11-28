@@ -1,0 +1,95 @@
+/* Estilo personalizado */
+body {
+    background-color: #d2f4fa; /* Fondo en tono celeste suave */
+}
+
+.navbar {
+    background-color: #8a2be2; /* Color morado para la barra de navegación */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important; /* Texto blanco en la barra de navegación */
+    /* Los textos en los elementos de la barra de navegación (como el logo y los enlaces) son blancos */
+}
+
+.hero-section {
+    background-color: #d8b9f8; /* Fondo morado claro */
+    color: #5a0d8c; /* Texto morado oscuro */
+    padding: 50px 20px;
+    text-align: center;
+    /* Se aplica un fondo morado claro con texto morado oscuro en la sección destacada, 
+       con relleno de 50px arriba y abajo y 20px a los lados. El texto se centra */
+}
+
+.product-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(16, 250, 67, 0.1);
+    transition: transform 0.3s;
+    /* Las tarjetas de productos no tienen borde, tienen bordes redondeados de 10px y sombra sutil. 
+       La transición en la propiedad "transform" se aplica durante 0.3 segundos */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Efecto de hover */
+    /* Cuando el mouse pasa sobre la tarjeta, esta se agranda un 5% debido al efecto de hover */
+}
+
+.card-title {
+    color: #5a0d8c;
+    /* El título dentro de la tarjeta de producto tiene un color morado oscuro */
+}
+
+.btn-custom {
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    /* El botón personalizado tiene un fondo morado, texto blanco y sin borde */
+}
+
+.btn-custom:hover {
+    background-color: #4b0c74; /* Color más oscuro en hover */
+    /* Cuando el usuario pasa el mouse sobre el botón, el fondo se oscurece */
+}
+
+footer {
+    background-color: #8a2be2;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    /* El pie de página tiene un fondo morado, texto blanco, está centrado y tiene relleno arriba y abajo de 10px */
+}
+
+.thank-you-message {
+    display: none; /* Oculto por defecto */
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #28a745; /* Fondo verde */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado dentro del rectángulo */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center; /* Alineación del texto en el centro */
+    width: auto; /* Ajusta el ancho al contenido */
+    max-width: 90%; /* Establece un ancho máximo para no ser demasiado grande */
+    margin-left: auto; /* Centrado horizontalmente */
+    margin-right: auto; /* Centrado horizontalmente */
+}
+
+.product-card:active .thank-you-message {
+    display: block; /* Aparece cuando el botón es presionado */
+    /* El mensaje de agradecimiento se muestra cuando la tarjeta de producto es presionada (estado activo) */
+}
+
+.btn-outline-custom {
+    color: #8a2be2;
+    border: 2px solid #8a2be2;
+    background-color: transparent;
+    /* El botón con borde personalizado tiene texto y borde morado y fondo transparente */
+}
+
+.btn-outline-custom:hover {
+    background-color: #8a2be2;
+    color: white;
+    border-color: #8a2be2;
+    /* Cuando el usuario pasa el mouse sobre el botón, el fondo se vuelve morado y el texto cambia a blanco "Más productos" */
+}
